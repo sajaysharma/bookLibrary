@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "name": "Book Name",
+        "title" : "Some about the book story bagera dekhte hai baad me",
+        "pric" : 0,
+        "category" : "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1736410019~exp=1736413619~hmac=2a05c3800f39b756b5cdc5a460b58bfde14dc3e2c0936334ee5e655f33defb4e&w=740"
+    },
+    {
+        "id":2,
+        "name": "Book Name",
+        "title" : "Some about the book story bagera dekhte hai baad me",
+        "pric" : 0,
+        "category" : "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1736410019~exp=1736413619~hmac=2a05c3800f39b756b5cdc5a460b58bfde14dc3e2c0936334ee5e655f33defb4e&w=740"
+    },
+    {
+        "id":3,
+        "name": "Book Name",
+        "title" : "Some about the book story bagera dekhte hai baad me",
+        "pric" : 0,
+        "category" : "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1736410019~exp=1736413619~hmac=2a05c3800f39b756b5cdc5a460b58bfde14dc3e2c0936334ee5e655f33defb4e&w=740"
+    },
+    {
+        "id":4,
+        "name": "Book Name",
+        "title" : "Some about the book story bagera dekhte hai baad me",
+        "pric" : 0,
+        "category" : "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1736410019~exp=1736413619~hmac=2a05c3800f39b756b5cdc5a460b58bfde14dc3e2c0936334ee5e655f33defb4e&w=740"
+    },
+    {
+        "id":5,
+        "name": "Book Name",
+        "title" : "Some about the book story bagera dekhte hai baad me",
+        "pric" : 0,
+        "category" : "Paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1736410019~exp=1736413619~hmac=2a05c3800f39b756b5cdc5a460b58bfde14dc3e2c0936334ee5e655f33defb4e&w=740"
+    },
+    {
+        "id":6,
+        "name": "Book Name",
+        "title" : "Some about the book story bagera dekhte hai baad me",
+        "pric" : 0,
+        "category" : "Paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1736410019~exp=1736413619~hmac=2a05c3800f39b756b5cdc5a460b58bfde14dc3e2c0936334ee5e655f33defb4e&w=740"
+    },
+    {
+        "id":7,
+        "name": "Book Name",
+        "title" : "Some about the book story bagera dekhte hai baad me",
+        "pric" : 0,
+        "category" : "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1736410019~exp=1736413619~hmac=2a05c3800f39b756b5cdc5a460b58bfde14dc3e2c0936334ee5e655f33defb4e&w=740"
+    },
+    {
+        "id":8,
+        "name": "Book Name",
+        "title" : "Some about the book story bagera dekhte hai baad me",
+        "pric" : 0,
+        "category" : "Paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1736410019~exp=1736413619~hmac=2a05c3800f39b756b5cdc5a460b58bfde14dc3e2c0936334ee5e655f33defb4e&w=740"
+    },
+    {
+        "id":9,
+        "name": "Book Name",
+        "title" : "Some about the book story bagera dekhte hai baad me",
+        "pric" : 0,
+        "category" : "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1736410019~exp=1736413619~hmac=2a05c3800f39b756b5cdc5a460b58bfde14dc3e2c0936334ee5e655f33defb4e&w=740"
+    },
+    {
+        "id":10,
+        "name": "Book Name",
+        "title" : "Some about the book story bagera dekhte hai baad me",
+        "pric" : 0,
+        "category" : "Paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1736410019~exp=1736413619~hmac=2a05c3800f39b756b5cdc5a460b58bfde14dc3e2c0936334ee5e655f33defb4e&w=740"
+    },
+    {
+        "id":11,
+        "name": "Book Name",
+        "title" : "Some about the book story bagera dekhte hai baad me",
+        "pric" : 0,
+        "category" : "Paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1736410019~exp=1736413619~hmac=2a05c3800f39b756b5cdc5a460b58bfde14dc3e2c0936334ee5e655f33defb4e&w=740"
+    },
+    {
+        "id":12,
+        "name": "Book Name",
+        "title" : "Some about the book story bagera dekhte hai baad me",
+        "pric" : 0,
+        "category" : "Paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1736410019~exp=1736413619~hmac=2a05c3800f39b756b5cdc5a460b58bfde14dc3e2c0936334ee5e655f33defb4e&w=740"
+    }
+]
