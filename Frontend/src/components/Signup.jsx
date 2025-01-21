@@ -1,17 +1,46 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Login from './Login';
 import { useForm } from 'react-hook-form';
+import axios from 'axios';
+import toast from 'react-hot-toast';
 
 
 function Signup() {
+    const location = useLocation();
+  const Navigate = useNavigate();
+  const from = location.state?.from?.pathname || "/";
     const {
         register,
         handleSubmit,
         formState: { errors },
     } = useForm();
 
-    const onSubmit = (data) => console.log(data);
+    const onSubmit = async (data) => {
+        const userInfo = {
+            fullname : data.fullname,
+            email : data.email,
+            contact : data.contact,
+            password : data.password,
+        };
+        await axios
+        .post("http://localhost:4001/user/signup", userInfo)
+        .then((res) => {
+            console.log(res.data)
+            if(res.data){
+                toast.success('Signup Succesfull!');
+                Navigate(from, { replace: true });
+            }
+            localStorage.setItem("Users",JSON.stringify(data));
+        })
+            .catch((err) => {
+                if (err.response) {
+                    console.log(err);
+                    toast.error("Error :" + err.response.data.message);
+                }
+            });
+    };
+
     return (
         <>
             <div className='flex h-screen items-center justify-center'>
@@ -28,10 +57,10 @@ function Signup() {
                                     type="text"
                                     placeholder='Enter your name'
                                     className='w-80 px-3 border rounded-md outline-none'
-                                    {...register("name", { required: true })}
+                                    {...register("fullname", { required: true })}
                                 />
                                 <br />
-                                {errors.name && <span className='text-sm text-red-500'>This field is required</span>}
+                                {errors.fullname && <span className='text-sm text-red-500'>This field is required</span>}
                             </div>
                             {/* Email */}
                             <div className='mt-10 space-y-2s'>
@@ -52,10 +81,10 @@ function Signup() {
                                 <input type="text"
                                     placeholder='Enter your mobile number'
                                     className='w-80 px-3 border rounded-md outline-none'
-                                    {...register("phone", { required: true })}
+                                    {...register("contact", { required: true })}
                                 />
                                 <br />
-                                {errors.phone && <span className='text-sm text-red-500'>This field is required</span>}
+                                {errors.contact && <span className='text-sm text-red-500'>This field is required</span>}
                             </div>
                             {/* Password */}
                             <div className='mt-10 space-y-2s'>
