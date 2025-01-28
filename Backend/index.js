@@ -5,6 +5,8 @@ import cors from 'cors';
 
 import bookRoute from "./route/book.route.js";
 import userRouter from "./route/user.route.js";
+import libraryRouter from "./route/library.route.js";
+import cardRouter from "./route/card.route.js";
 
 const app = express();
 
@@ -31,6 +33,9 @@ try {
 
 app.use("/book",bookRoute);
 app.use("/user",userRouter);
+app.use("/library",libraryRouter);
+app.use("/cards",cardRouter);
+
 
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);

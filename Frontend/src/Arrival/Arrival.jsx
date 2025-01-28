@@ -4,6 +4,7 @@ import Newarrival from '../components/Newarrival';
 import Footer from '../components/Footer';
 
 
+
 function Arrival() {
   return (
     <>

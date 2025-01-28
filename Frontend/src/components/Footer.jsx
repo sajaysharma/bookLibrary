@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Footer() {
     return (
@@ -50,7 +50,7 @@ function Footer() {
                         </div>
                     </nav>
                     <aside>
-                        <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+                        <p>Copyright © {new Date().getFullYear()} - Developed By Ajay Sharma</p>
                     </aside>
                 </footer>
             </div>
@@ -58,4 +58,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default Footer;

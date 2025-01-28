@@ -8,8 +8,8 @@ import toast from 'react-hot-toast';
 
 function Signup() {
     const location = useLocation();
-  const Navigate = useNavigate();
-  const from = location.state?.from?.pathname || "/";
+    const Navigate = useNavigate();
+    const from = location.state?.from?.pathname || "/";
     const {
         register,
         handleSubmit,
@@ -18,21 +18,21 @@ function Signup() {
 
     const onSubmit = async (data) => {
         const userInfo = {
-            fullname : data.fullname,
-            email : data.email,
-            contact : data.contact,
-            password : data.password,
+            fullname: data.fullname,
+            email: data.email,
+            contact: data.contact,
+            password: data.password,
         };
         await axios
-        .post("http://localhost:4001/user/signup", userInfo)
-        .then((res) => {
-            console.log(res.data)
-            if(res.data){
-                toast.success('Signup Succesfull!');
-                Navigate(from, { replace: true });
-            }
-            localStorage.setItem("Users",JSON.stringify(data));
-        })
+            .post("http://localhost:4001/user/signup", userInfo)
+            .then((res) => {
+                console.log(res.data)
+                if (res.data) {
+                    toast.success('Signup Succesfull!');
+                    Navigate(from, { replace: true });
+                }
+                localStorage.setItem("Users", JSON.stringify(data));
+            })
             .catch((err) => {
                 if (err.response) {
                     console.log(err);

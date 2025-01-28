@@ -43,7 +43,7 @@ function Course() {
                             <Card key={item.id} item={item} />
                         ))
                     }
-                </div>
+                </div> 
 
             </div>
         </>

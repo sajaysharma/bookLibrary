@@ -3,7 +3,7 @@ import React from 'react';
 function Book() {
     return (
         <>
-            <div className="min-h-screen bg-white flex items-center justify-center dark:bg-slate-900 dark:text-white">
+            <div className=" bg-white flex items-center justify-center dark:bg-slate-900 dark:text-white">
                 <div className="w-full max-w-md bg-blue-50 p-8 rounded-lg shadow-lg">
                     <h2 className="text-2x1 font-bold text-blue-600 text-center mb-6">Issue / Submit Book</h2>
 

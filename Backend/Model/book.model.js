@@ -6,9 +6,9 @@ const bookSchema = mongoose.Schema({
     price:Number,
     Category:String,
     Image:String,
-    Title:String
+    Title:String 
 });
 
 const Book = mongoose.model("Book",bookSchema);
 
-export default Book;
+export default Book; 

@@ -9,6 +9,7 @@ import Arrival from './Arrival/Arrival.jsx';
 import { Toaster } from 'react-hot-toast';
 import Contactpage from './components/Contactpage.jsx';
 import { useAuth } from "./context/AuthProvider";
+import AdminAction from './Admin/AdminAction.jsx';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path = "/newspapper" element = {<Newspoint/>}/>
         <Route path = "/newarrival" element = {<Arrival/>}/>
         <Route path = "/contact" element = {<Contactpage/>}/>
+        <Route path = "/admin" element = {<AdminAction/>}/>
      </Routes>
      <Toaster />
      </div>
